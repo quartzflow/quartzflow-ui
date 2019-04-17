@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "name": "SOD.Job1",
+        "description": "",
+        "nextRunAt": "Saturday, 14 July 2018 10:19:00 PM AEST\r\n",
+        "status": "Active",
+        "properties": {
+            "exclusionCalendar": "AU_Public_Holidays",
+            "executableName": "D:\\Source\\JobScheduler\\JobScheduler\\TestApp\\bin\\Debug\\TestApp.exe",
+            "maxRetries": "3",
+            "outputFile": "d:\\temp\\SOD-Job1.txt",
+            "parameters": "success 300",
+            "runAt": "Now+1",
+            "runCalendar": "",
+            "runDays": "Mon, Tue, Wed, Thu, Fri,Sat,Sun",
+            "runOnCompletionOf": "",
+            "runOnFailureOf": "",
+            "runOnSuccessOf": "",
+            "terminateAfter": "0",
+            "timezone": "",
+            "warnAfter": "1"
+        }
+    },
+    {
+        "id": 2,
+        "name": "SOD.Job2",
+        "description": "",
+        "nextRunAt": "Job SOD.Job2 does not have a specific trigger",
+        "status": "Active",
+        "properties": {
+            "exclusionCalendar": "",
+            "executableName": "D:\\Source\\JobScheduler\\JobScheduler\\TestApp\\bin\\Debug\\TestApp.exe",
+            "maxRetries": "1",
+            "outputFile": "d:\\temp\\SOD-Job2.txt",
+            "parameters": "failure 1000",
+            "runAt": "",
+            "runCalendar": "",
+            "runDays": "",
+            "runOnCompletionOf": "SOD.Job1",
+            "runOnFailureOf": "",
+            "runOnSuccessOf": "",
+            "terminateAfter": "0",
+            "timezone": "",
+            "warnAfter": "0"
+        }
+    },
+    {
+        "id": 3,
+        "name": "SOD.Job3",
+        "description": "",
+        "nextRunAt": "Job SOD.Job3 does not have a specific trigger",
+        "status": "Active",
+        "properties": {
+            "exclusionCalendar": "",
+            "executableName": "D:\\Source\\JobScheduler\\JobScheduler\\TestApp\\bin\\Debug\\TestApp.exe",
+            "maxRetries": "0",
+            "outputFile": "d:\\temp\\SOD-Job3.txt",
+            "parameters": "success 1000",
+            "runAt": "",
+            "runCalendar": "",
+            "runDays": "",
+            "runOnCompletionOf": "",
+            "runOnFailureOf": "",
+            "runOnSuccessOf": "SOD.Job2",
+            "terminateAfter": "0",
+            "timezone": "",
+            "warnAfter": "0"
+        }
+    }
+]
