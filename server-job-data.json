@@ -7,7 +7,7 @@
         "status": "Active",
         "properties": {
             "exclusionCalendar": "AU_Public_Holidays",
-            "executableName": "D:\\Source\\JobScheduler\\JobScheduler\\TestApp\\bin\\Debug\\TestApp.exe",
+            "executableName": "D:\\Source\\QuartzFlow\\QuartzFlow\\TestApp\\bin\\Debug\\TestApp.exe",
             "maxRetries": "3",
             "outputFile": "d:\\temp\\SOD-Job1.txt",
             "parameters": "success 300",
@@ -30,7 +30,7 @@
         "status": "Active",
         "properties": {
             "exclusionCalendar": "",
-            "executableName": "D:\\Source\\JobScheduler\\JobScheduler\\TestApp\\bin\\Debug\\TestApp.exe",
+            "executableName": "D:\\Source\\QuartzFlow\\QuartzFlow\\TestApp\\bin\\Debug\\TestApp.exe",
             "maxRetries": "1",
             "outputFile": "d:\\temp\\SOD-Job2.txt",
             "parameters": "failure 1000",
@@ -53,7 +53,7 @@
         "status": "Active",
         "properties": {
             "exclusionCalendar": "",
-            "executableName": "D:\\Source\\JobScheduler\\JobScheduler\\TestApp\\bin\\Debug\\TestApp.exe",
+            "executableName": "D:\\Source\\QuartzFlow\\QuartzFlow\\TestApp\\bin\\Debug\\TestApp.exe",
             "maxRetries": "0",
             "outputFile": "d:\\temp\\SOD-Job3.txt",
             "parameters": "success 1000",

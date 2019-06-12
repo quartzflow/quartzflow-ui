@@ -11,7 +11,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://localhost:5000/scheduler/',
+        target: 'http://localhost:5000/quartzflow/',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
